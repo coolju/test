@@ -85,7 +85,7 @@
                 <asp:HyperLink ID="link_CreationClient" NavigateUrl="~/client_I001.aspx" runat="server" CssClass="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></asp:HyperLink>
     <div id="tabTableau" class="col s12">
             <br />
-            <asp:GridView ID="GV_Client" runat="server" CssClass="responsive-table bordered highlight" AutoGenerateColumns="False"  AllowPaging="true" OnRowCommand="GV_Client_RowCommand" OnPageIndexChanging="GV_Client_PageIndexChanging">
+            <asp:GridView ID="GV_Client"  runat="server" CssClass="responsive-table bordered highlight" AutoGenerateColumns="False"  AllowPaging="true" OnRowCommand="GV_Client_RowCommand" OnPageIndexChanging="GV_Client_PageIndexChanging">
             <Columns>
                 
                 <asp:BoundField DataField="GDO" HeaderText="GDO" />
